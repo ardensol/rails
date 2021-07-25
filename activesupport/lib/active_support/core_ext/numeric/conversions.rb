@@ -116,7 +116,7 @@ class Numeric
     else
       self.to_default_s
     end
-  en
+  end
 
   [Float, Fixnum, Bignum, BigDecimal].each do |klass|
     next if klass.method_defined?(:to_default_s)
